@@ -1,0 +1,58 @@
+@import url('qm-main-root-vars.css');
+
+.qm-container {
+    padding: 20px;
+}
+.qm-discoverMore {
+    display: grid;
+    grid-template-columns: calc(70% - 10px) 30%;
+    gap: 10px;
+    background-image: url('assets/img/bg.svg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.qm-discoverMore-heading {
+    color: var(--bs-gray-dark, #717171);
+    font-family: Open Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.qm-discoverMore-text {
+    color: var(--bs-secondary, #00405B);
+    font-family: Open Sans;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.6px; /* 102% */
+    width: 388px;
+    margin-bottom: 17px;
+}
+.qm-discoverMore-des {
+    color: #00405B;
+    font-family: Open Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 23.6px; /* 131.111% */
+    width: 300px;
+    margin-bottom: 30px;
+}
+.qm-discoverMore-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qm-discoverMore-link {
+    color: var(--bs-secondary, #00405B);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17.1px; /* 106.875% */
+}
